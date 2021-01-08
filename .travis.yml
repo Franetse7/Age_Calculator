@@ -2,10 +2,9 @@ os: windows
 language: cpp
 env:
   - MSBUILD_PATH="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\MSBuild\Current\Bin"
-install:
-  - choco install visualstudio2019buildtools --package-parameters "--add Microsoft.VisualStudio.Component.VC.Tools.x86.x64"
-  - choco install dotnetcore-sdk
-  - dotnet restore
+#install:
+#  - choco install visualstudio2019buildtools --package-parameters "--add Microsoft.VisualStudio.Component.VC.Tools.x86.x64"
+#  - choco install dotnetcore-sdk
 script:
   - export PATH=$MSBUILD_PATH:$PATH
   - msbuild.exe age_calculator.sln -p:Platform=x86 -p:Configuration=Release
