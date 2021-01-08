@@ -1,4 +1,5 @@
 # Age_Calculator<br>
+![Binary](https://github.com/graysuit/Age_Calculator/workflows/MSBuild/badge.svg)<br>
 Tiny Age Calculator made in win32 cpp<br>
 I made it to learn win32 api usage to make GUI apps.<br>
 I will be happy to get your feedbacks. :)<br>
